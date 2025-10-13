@@ -1,0 +1,17 @@
+name = "cf_ai_durable-chat"
+main = "src/index.mjs"
+compatibility_date = "2024-05-20"
+
+# Binding for Workers AI
+[ai]
+binding = "AI"
+
+# Binding for the Durable Object
+[[durable_objects.bindings]]
+name = "CHAT_SESSION"
+class_name = "ChatSession"
+
+# Migration for the Durable Object class
+[[migrations]]
+tag = "v1"
+new_classes = ["ChatSession"]

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Durable Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>AI Chat with Memory</h1>
+            <p>Powered by Cloudflare Workers, Durable Objects & Llama 3</p>
+        </div>
+        <div id="chat-box" class="chat-box">
+            </div>
+        <form id="chat-form" class="chat-input-form">
+            <input type="text" id="message-input" placeholder="Type your message..." autocomplete="off" required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
