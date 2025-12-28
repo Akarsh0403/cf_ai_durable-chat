@@ -2,7 +2,7 @@
 
 This is a complete AI-powered chat application built entirely on the Cloudflare developer platform, created for the Cloudflare AI assignment. The application provides a chat interface where a user can have a stateful conversation with an AI, meaning the AI remembers the context of previous messages within the session.
 
-**Deployed Application Link:** [Your Deployed Link Here]
+
 
 ---
 
